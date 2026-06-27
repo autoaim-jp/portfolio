@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>実績を探す | Tokayu</title>
+    <meta name="description" content="タグから関連する実績を探すページ。">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html">Tokayu</a>
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="./index.html">ホーム</a>
+        <a href="./works.html">実績一覧</a>
+        <a href="./value.html">提供価値</a>
+        <a href="./hobbies.html">趣味</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">タグ検索</p>
+        <h1 data-search-title>実績を探す</h1>
+        <p data-search-lead>タグをクリックすると、関連する実績を絞り込めます。</p>
+      </section>
+
+      <section class="section works-catalog">
+        <div class="works-grid" data-search-results></div>
+        <div class="section-actions">
+          <a class="button tertiary" href="./works.html">一覧に戻る</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Tokayu</span>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="./index.html">ホーム</a>
+        <a href="./works.html">実績一覧</a>
+        <a href="./value.html">提供価値</a>
+        <a href="./hobbies.html">趣味</a>
+      </nav>
+    </footer>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

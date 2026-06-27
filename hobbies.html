@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>趣味 | Tokayu</title>
+    <meta
+      name="description"
+      content="ウイスキー、DIY、ボードゲーム、ピアノ、バイク、サイクリング、音楽鑑賞、麻雀など、Tokayuの趣味と関心。"
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html">Tokayu</a>
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="./index.html">ホーム</a>
+        <a href="./works.html">実績一覧</a>
+        <a href="./value.html">提供価値</a>
+        <a href="./hobbies.html" aria-current="page">趣味</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero hobby-hero">
+        <p class="eyebrow">趣味</p>
+        <h1>作ること、味わうこと、<br>出かけること。</h1>
+        <p>
+          仕事や技術の話だけでなく、手を動かすこと、考えて遊ぶこと、
+          場所を変えて気分を整えることも好きです。話題の入口として、関心のあるものをまとめています。
+        </p>
+      </section>
+
+      <section class="section hobby-section">
+        <div class="hobby-grid" data-hobbies></div>
+      </section>
+
+      <section class="section hobby-section hobby-challenge-section">
+        <div class="section-heading compact">
+          <p class="eyebrow">これから挑戦</p>
+          <h2>これから挑戦したいこと</h2>
+          <p>
+            まだ深めている途中のもの、これから試してみたいものです。
+            趣味として育てる前の入口として並べています。
+          </p>
+        </div>
+
+        <div class="hobby-grid" data-hobby-challenges></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Tokayu</span>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="./index.html">ホーム</a>
+        <a href="./works.html">実績一覧</a>
+        <a href="./value.html">提供価値</a>
+        <a href="./hobbies.html" aria-current="page">趣味</a>
+      </nav>
+    </footer>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

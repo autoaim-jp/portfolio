@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tokayu | 相談から、価値を生む仕組みへ</title>
+    <meta
+      name="description"
+      content="AIでアウトプットを大量に作れるようになったからこそ、レビュー、履歴、デプロイ、運用の基盤を作る。Git、GitLab、K3S、Raspberry Pi、音声メモをつなぐ個人開発基盤のポートフォリオ。"
+    >
+    <meta property="og:title" content="Tokayu | 相談から、価値を生む仕組みへ">
+    <meta
+      property="og:description"
+      content="AI時代に、作ること、レビューすること、残すこと、動かすことをどう設計するか。"
+    >
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="ホームへ戻る">Tokayu</a>
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="./index.html" aria-current="page">ホーム</a>
+        <a href="./works.html">実績一覧</a>
+        <a href="./value.html">提供価値</a>
+        <a href="./hobbies.html">趣味</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="ポートフォリオの概要">
+        <div class="hero-inner">
+          <p class="eyebrow">AI出力 / レビュー / 履歴 / デプロイ</p>
+          <h1>相談から、価値を生む仕組みへ。</h1>
+          <p class="lead">
+            1年前、AIでコードも文章も資料も速く作れる感覚がありました。
+            でも、出力が増えるほど、何を採用し、何を直し、どう動かすのかを追う仕組みが必要になりました。
+            Webサービス、ボット、スクレイピング、インフラの試行錯誤を土台に、
+            脳とAIを接続し、思考を拡張する基盤を作っています。
+          </p>
+          <div class="hero-actions" aria-label="ページ内リンク">
+            <a class="button primary" href="#story">背景を読む</a>
+            <a class="button secondary" href="#tech">技術を見る</a>
+            <a class="button secondary" href="./value.html">使い方を見る</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">背景と考え</p>
+          <h2>AIで作る量が増え、仕組みが必要になった。</h2>
+          <p>
+            Webサービス、ボット、スクレイピング、自然言語処理、インフラ、アプリ。
+            これまで試してきたことを、AI時代の作り方につなげていきます。
+          </p>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card">
+            <p class="project-kicker">出発点</p>
+            <h3>AIで作れるものが一気に増えた</h3>
+            <p>
+              コード、文章、要件メモ、レビューコメント、スライド。AIを使えば、多くのアウトプットを速く作れる。
+              これまで試してきた技術やサービスを、より速く形にできる感覚がありました。
+            </p>
+          </article>
+
+          <article class="story-card">
+            <p class="project-kicker">課題</p>
+            <h3>出力が増えるほど、判断と履歴が重要になった</h3>
+            <p>
+              何を採用したのか、何を直したのか、なぜそう判断したのか。
+              作る量が増えるほど、レビューと履歴管理がないと、成果物が作りっぱなしになります。
+            </p>
+          </article>
+
+          <article class="story-card">
+            <p class="project-kicker">解決策</p>
+            <h3>既存のエンジニアリング技術と接続する</h3>
+            <p>
+              AIで何でもできると思った先で、Git、レビュー、Issue、CI/CD、Kubernetesのような技術が、
+              むしろ以前より重要になると考えるようになりました。
+            </p>
+          </article>
+        </div>
+
+        <div class="principle-panel">
+          <div>
+            <p class="eyebrow">目指す状態</p>
+            <h3>脳とAIを接続し、思考を拡張する基盤を作る。</h3>
+          </div>
+          <p>
+            作ったもの、考えたこと、失敗したこと、直したことが次の開発に残る。
+            そのサイクルを回し、問題解決とアウトプットの量・速度を伸ばしていきます。
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">大切にしている考え方</p>
+          <h2>価値観を、判断と行動につなげる。</h2>
+          <p>
+            何を目指すか、何を大切にするか、何をやらないか。
+            考え方を言葉にしておくことで、相談、計画、実行、見直しを進めやすくしています。
+          </p>
+        </div>
+
+        <div class="thinking-grid">
+          <article class="thinking-card">
+            <p class="project-kicker">目標</p>
+            <h3>何を実現したいかを言葉にする</h3>
+            <p>やりたいことを曖昧なままにせず、向かう先として見える形にします。</p>
+          </article>
+
+          <article class="thinking-card">
+            <p class="project-kicker">計画</p>
+            <h3>いつ何を進めるかを決める</h3>
+            <p>目標を予定や作業に落とし、今やることが分かる状態にします。</p>
+          </article>
+
+          <article class="thinking-card">
+            <p class="project-kicker">価値観</p>
+            <h3>守りたいものを明確にする</h3>
+            <p>守りたいもの、増やしたいもの、減らしたいものを判断の土台にします。</p>
+          </article>
+
+          <article class="thinking-card">
+            <p class="project-kicker">判断基準</p>
+            <h3>迷ったときの問いを持つ</h3>
+            <p>軽い判断と重い判断を分け、後悔しない選び方を用意します。</p>
+          </article>
+
+          <article class="thinking-card">
+            <p class="project-kicker">行動指針</p>
+            <h3>価値観を毎日の行動に落とす</h3>
+            <p>大事にしたいことを、具体的な行動や習慣として扱います。</p>
+          </article>
+
+          <article class="thinking-card">
+            <p class="project-kicker">やらないこと</p>
+            <h3>やらないことを決める</h3>
+            <p>完璧主義や自己満足に流れないよう、手放すものも決めます。</p>
+          </article>
+
+          <article class="thinking-card">
+            <p class="project-kicker">優先順位</p>
+            <h3>今日を大事にする</h3>
+            <p>論理と情理のバランスを取り、今の自分に必要な順番を考えます。</p>
+          </article>
+
+          <article class="thinking-card">
+            <p class="project-kicker">ビジョン</p>
+            <h3>長く向かう方向を持つ</h3>
+            <p>短期の作業だけでなく、何に近づいているのかを確認します。</p>
+          </article>
+
+          <article class="thinking-card">
+            <p class="project-kicker">運用ルール</p>
+            <h3>考え方を見直し続ける</h3>
+            <p>一度決めて終わりにせず、更新するタイミングや扱い方も残します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tech" class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">技術基盤</p>
+          <h2>技術要素が必要になった理由</h2>
+          <p>
+            AI出力をGitで履歴に残し、GitLabでレビューし、K3Sで決まった手順で動かし、
+            Raspberry Piで安全に動作を確認する環境までつなげています。
+          </p>
+        </div>
+
+        <div class="reason-table" role="table" aria-label="課題認識と必要になった技術">
+          <div class="reason-row reason-head" role="row">
+            <div role="columnheader">課題認識</div>
+            <div role="columnheader">エンジニア視点</div>
+            <div role="columnheader">必要になったもの</div>
+            <div role="columnheader">理由</div>
+          </div>
+          <div class="reason-row" role="row">
+            <div role="cell">AIが作る量に、人間の判断が追いつかない</div>
+            <div role="cell">差分、採用判断、修正履歴を管理したい</div>
+            <div role="cell">Git</div>
+            <div role="cell">差分、採用判断、修正履歴を残すため</div>
+          </div>
+          <div class="reason-row" role="row">
+            <div role="cell">AI出力をそのまま使うのは危ない</div>
+            <div role="cell">変更単位で確認し、レビューを通したい</div>
+            <div role="cell">レビュー / MR</div>
+            <div role="cell">人間が判断し、変更単位で確認するため</div>
+          </div>
+          <div class="reason-row" role="row">
+            <div role="cell">相談、作業、履歴、実行結果が散らばる</div>
+            <div role="cell">Issue、レビュー、CI/CDをまとめたい</div>
+            <div role="cell">GitLab</div>
+            <div role="cell">作業、会話、履歴、実行結果を一箇所に寄せるため</div>
+          </div>
+          <div class="reason-row" role="row">
+            <div role="cell">公開や更新を毎回その場の判断にしたくない</div>
+            <div role="cell">デプロイを都度AI任せにしたくない</div>
+            <div role="cell">Kubernetes / K3S</div>
+            <div role="cell">ルール化された共通の実行基盤を作るため</div>
+          </div>
+          <div class="reason-row" role="row">
+            <div role="cell">安全性を確認しながら試したい</div>
+            <div role="cell">管理できるネットワークで検証したい</div>
+            <div role="cell">Raspberry Pi / 自宅ネットワーク</div>
+            <div role="cell">セキュアに動作を確認するため</div>
+          </div>
+          <div class="reason-row" role="row">
+            <div role="cell">思考や音声メモが散らばる</div>
+            <div role="cell">メモをIssue、図、資料、記事へ展開したい</div>
+            <div role="cell">Issue / Draw.io / Marp</div>
+            <div role="cell">考えを資料、図、スライド、記事に変換するため</div>
+          </div>
+        </div>
+
+        <div class="project-grid tech-grid">
+          <article class="project-card">
+            <img src="./assets/gitlab-workflow.svg" alt="GitLabを中心にした開発ワークフロー図">
+            <div class="project-body">
+              <p class="project-kicker">レビューの流れ</p>
+              <h3>GitLabを中心にしたAI開発運用</h3>
+              <p>
+                Issueに考えを残し、AIが作った変更はMRで確認する。
+                AIに任せる部分と、人間が判断する部分を分けるための流れを試しています。
+              </p>
+              <ul class="tag-list" aria-label="関連技術">
+                <li>GitLab</li>
+                <li>Issue</li>
+                <li>MR</li>
+                <li>CI/CD</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="./assets/platform-overview.svg" alt="GitLabとKubernetesを組み合わせた基盤図">
+            <div class="project-body">
+              <p class="project-kicker">デプロイのルール</p>
+              <h3>K3Sとセルフホスト基盤</h3>
+              <p>
+                デプロイの道筋を決めておき、Kubernetes/K3S、Ansible、GitOpsで、
+                AIと接続した作業基盤を安定して動かす土台を検証しています。
+              </p>
+              <ul class="tag-list" aria-label="関連技術">
+                <li>K3S</li>
+                <li>Ansible</li>
+                <li>GitOps</li>
+                <li>Raspberry Pi</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="./assets/voice-memo-to-output.svg" alt="音声メモから成果物へ変換するワークフロー図">
+            <div class="project-body">
+              <p class="project-kicker">知識化の流れ</p>
+              <h3>音声メモから成果物へ</h3>
+              <p>
+                考えたことを音声メモに残し、Issue、Draw.io、Marp、記事、レポートへ展開する。
+                思考を次の成果物に残すためのワークフローです。
+              </p>
+              <ul class="tag-list" aria-label="関連技術">
+                <li>音声メモ</li>
+                <li>Issue</li>
+                <li>Draw.io</li>
+                <li>Marp</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="./assets/ai-output-loop.svg" alt="AI出力とレビュー改善ループの図">
+            <div class="project-body">
+              <p class="project-kicker">出力の改善ループ</p>
+              <h3>AI出力をレビューして残す</h3>
+              <p>
+                入力、出力、レビュー、修正、履歴を一つの流れで扱い、
+                AIが作った成果物を次の開発に残していきます。
+              </p>
+              <ul class="tag-list" aria-label="関連技術">
+                <li>レビュー</li>
+                <li>履歴</li>
+                <li>チェックリスト</li>
+                <li>ドキュメント</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="works" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">作ったもの・試したもの</p>
+          <h2>実際にやってきたこと</h2>
+          <p>
+            Webサービス、ボット、スクレイピング、インフラなどから、代表的な試作と実験を選んでいます。
+            量を見せるだけでなく、背景、使った技術、学びが分かる形に整理しています。
+          </p>
+        </div>
+
+        <div class="works-grid" data-featured-works></div>
+
+        <div class="section-actions">
+          <a class="button tertiary" href="./works.html">もっと見る</a>
+        </div>
+      </section>
+
+      <section id="hobbies" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">趣味</p>
+          <h2>話題の入口になるもの</h2>
+          <p>
+            技術や事業の話だけでなく、作ること、味わうこと、考えて遊ぶことも好きです。
+            人柄や関心が伝わるものを少しだけ並べています。
+          </p>
+        </div>
+
+        <div class="hobby-grid" data-featured-hobbies></div>
+
+        <div class="section-actions">
+          <a class="button tertiary" href="./hobbies.html">もっと見る</a>
+        </div>
+      </section>
+
+      <section class="section band conversation-section">
+        <div class="section-heading">
+          <p class="eyebrow">検証テーマ</p>
+          <h2>これから検証したいこと</h2>
+          <p>
+            AIと接続する基盤を、サービスとして提供するための検証を進めます。
+            ビジネスモデル、ユーザー検証、運用、発信を具体化していきます。
+          </p>
+        </div>
+
+        <div class="conversation-grid">
+          <article class="writing-item">
+            <h3>サービスとして提供する</h3>
+            <p>
+              GitLab、AIエージェント、音声メモ、K3Sを組み合わせた作業基盤を、
+              誰にどんな価値を届けるサービスにするか検証します。
+            </p>
+          </article>
+          <article class="writing-item">
+            <h3>運用を分けて整える</h3>
+            <p>
+              非エンジニアでも使える運用マニュアルを整え、
+              トラブル時はエンジニアが支援する形を作ります。
+            </p>
+          </article>
+          <article class="writing-item">
+            <h3>発信を続ける</h3>
+            <p>
+              動画配信、Podcast配信、記事発信を通じて、
+              相談、AI、仕組み、価値づくりの実践を共有します。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div>
+          <p class="eyebrow">連絡先</p>
+          <h2>誰でも困りごとを解決し、本質的なことに取り組めるIT基盤へ。</h2>
+          <p>
+            IT技術は、工夫すれば誰でも使えるものになります。
+            相談、メモ、AI、レビュー、履歴、運用を組み合わせ、
+            困りごとをすぐ解決して価値を生む基盤として育てています。
+          </p>
+        </div>
+        <a class="button primary" href="mailto:git@autoaim.jp">git@autoaim.jp</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Tokayu</span>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="./index.html" aria-current="page">ホーム</a>
+        <a href="./works.html">実績一覧</a>
+        <a href="./value.html">提供価値</a>
+        <a href="./hobbies.html">趣味</a>
+      </nav>
+    </footer>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
