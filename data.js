@@ -395,259 +395,259 @@ window.PORTFOLIO_HOBBIES = [
   {
     title: "ウイスキー",
     summary: "香りや味の違いを楽しみながら、棚づくりまで含めて整えています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: true
   },
   {
     title: "DIY",
     summary: "必要な棚や収納を、自分の手で少しずつ形にしています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: true
   },
   {
     title: "ボードゲーム",
     summary: "ルールを読み、状況を見て、相手と考える時間が好きです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: true
   },
   {
     title: "ピアノ",
     summary: "少しずつ弾ける曲を増やし、表現できる幅を広げています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: true
   },
   {
     title: "バイク",
     summary: "近場のツーリング先を探しながら、気分転換の移動を楽しんでいます。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "サイクリング",
     summary: "自転車で外に出て、景色を変えながら気分を整えています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "キャンプ",
     summary: "道具を揃え、行き先を探し、外で過ごす時間を作っています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "ドライブ / 洗車",
     summary: "場所を変えて考えを整理し、車も整えて気分よく動けるようにしています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "ハンバーガー",
     summary: "食べに行くことも、作ってみることも楽しみたいテーマです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "水槽",
     summary: "水草や生体を育てながら、小さな環境を整えています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "3D",
     summary: "古い機器や電子工作を、自分なりの筐体で形にしたいテーマです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "電動スケートボード",
     summary: "モーターや部品を組み合わせ、動くものを作る試行錯誤です。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "電子工作 / IoT",
     summary: "小さなデバイスをつなぎ、暮らしの中で使える仕組みを考えています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "Insta360",
     summary: "出かけた先や日常を記録し、後から見返せる形にしたいです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "音楽制作",
     summary: "動画や発信に使える音を、自分でも作れるように試しています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "音楽鑑賞",
     summary: "曲を聴きながら、気分を整えたり表現の引き出しを増やしたりしています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "読書",
     summary: "考える材料を増やし、メモや発信につなげる時間です。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "旅行",
     summary: "行き先を調べ、準備し、移動そのものも楽しみたいテーマです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "トランプ収集",
     summary: "集める楽しさや、ものの魅力を言葉にする練習にもなっています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "レーザー彫刻",
     summary: "ウイスキーやコースターなど、ものづくりと趣味をつなぐ実験です。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "パラコード",
     summary: "編み方や使い道を試しながら、手で作る小物を楽しみたいテーマです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "コーヒー",
     summary: "作業や確認のきっかけとして、日常のリズムに入れています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "散歩",
     summary: "短く外に出て、気分を切り替える時間です。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "銀粘土",
     summary: "手で形を作り、身につけられるものに仕上げるものづくりです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "海外ドラマ",
     summary: "物語や会話のテンポを楽しみながら、気分転換しています。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "バラエティ",
     summary: "気軽に笑えるものを見て、頭を切り替える時間です。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "海",
     summary: "海を見て、気分を切り替える時間です。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "麻雀",
     summary: "牌効率、読み、駆け引きを少しずつ覚えていきたいゲームです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "hobby",
     featured: false
   },
   {
     title: "カセットプレイヤー修理",
     summary: "古いオーディオ機器を掃除し、直し、もう一度使えるようにしたいです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   },
   {
     title: "動画撮影 / 編集",
     summary: "撮ったものを短くまとめ、伝わる形にすることを試したいです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   },
   {
     title: "料理 / 低温調理",
     summary: "おいしく作ること、誰かに試してもらうことに関心があります。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   },
   {
     title: "猫カフェ",
     summary: "猫を眺めながら、ゆっくり過ごす時間を作ってみたいです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   },
   {
     title: "ゴルフ",
     summary: "外に出るきっかけとして、少しずつ試したいテーマです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   },
   {
     title: "ポーカー",
     summary: "確率、読み、駆け引きを楽しむゲームとして試してみたいです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   },
   {
     title: "映画鑑賞",
     summary: "物語や映像表現を楽しみながら、感想を言葉にしてみたいです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   },
   {
     title: "Podcast",
     summary: "話す練習や発信の場として、音声で考えをまとめてみたいです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   },
   {
     title: "色塗り",
     summary: "色の組み合わせや塗り方を試しながら、手を動かす表現を増やしたいです。",
-    image: "./assets/hobby-placeholder.png",
+    image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
   }

@@ -49,7 +49,7 @@
     tags.forEach((tag) => {
       const item = document.createElement("li");
       const link = document.createElement("a");
-      link.href = `./search.html?tag=${encodeURIComponent(tag)}`;
+      link.href = `/search/?tag=${encodeURIComponent(tag)}`;
       link.textContent = tag;
       item.appendChild(link);
       list.appendChild(item);
@@ -63,7 +63,7 @@
     article.className = "hobby-card";
 
     const image = document.createElement("img");
-    image.src = hobby.image || "./assets/hobby-placeholder.png";
+    image.src = hobby.image || "/assets/hobby-placeholder.png";
     image.alt = "";
     article.appendChild(image);
 
