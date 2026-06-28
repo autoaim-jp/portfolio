@@ -15,6 +15,50 @@
     "知識化"
   ];
 
+  function getAnchorOffset() {
+    if (window.matchMedia("(max-width: 640px)").matches) return 0;
+
+    const header = document.querySelector(".site-header");
+    const headerHeight = header ? header.getBoundingClientRect().height : 64;
+    return Math.max(96, headerHeight + 32);
+  }
+
+  function scrollToAnchor(hash, behavior = "smooth") {
+    if (!hash || hash === "#") return false;
+
+    const target = document.querySelector(hash);
+    if (!target) return false;
+
+    const top = target.getBoundingClientRect().top + window.scrollY - getAnchorOffset();
+    window.scrollTo({ top, behavior });
+    return true;
+  }
+
+  function setupAnchorScroll() {
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest('a[href^="#"]');
+      if (!link) return;
+
+      const hash = link.getAttribute("href");
+      if (!scrollToAnchor(hash)) return;
+
+      event.preventDefault();
+      window.history.pushState(null, "", hash);
+    });
+
+    window.addEventListener("load", () => {
+      if (window.location.hash) {
+        window.setTimeout(() => scrollToAnchor(window.location.hash, "auto"), 0);
+      }
+    });
+
+    window.addEventListener("hashchange", () => {
+      if (window.location.hash) {
+        scrollToAnchor(window.location.hash, "auto");
+      }
+    });
+  }
+
   function createWorkCard(work) {
     const article = document.createElement("article");
     article.className = "work-card";
@@ -63,7 +107,13 @@
     article.className = "hobby-card";
 
     const image = document.createElement("img");
-    image.src = hobby.image || "/assets/hobby-placeholder.png";
+    const defaultImage = document.body.classList.contains("hobby-site")
+      ? "/assets/hobby-base-placeholder.svg"
+      : "/assets/hobby-placeholder.png";
+    image.src = hobby.image || defaultImage;
+    if (document.body.classList.contains("hobby-site") && hobby.image === "/assets/hobby-placeholder.png") {
+      image.src = defaultImage;
+    }
     image.alt = "";
     article.appendChild(image);
 
@@ -74,9 +124,13 @@
     title.textContent = hobby.title;
     body.appendChild(title);
 
-    const summary = document.createElement("p");
-    summary.textContent = hobby.summary;
-    body.appendChild(summary);
+    if (hobby.link) {
+      const link = document.createElement("a");
+      link.className = "hobby-card-link";
+      link.href = hobby.link;
+      link.textContent = "もっと見る";
+      body.appendChild(link);
+    }
 
     article.appendChild(body);
     return article;
@@ -235,4 +289,5 @@
   renderHobbies();
   renderCatalog();
   renderSearch();
+  setupAnchorScroll();
 })();

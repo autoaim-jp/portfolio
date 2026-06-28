@@ -11,24 +11,28 @@
     <link rel="canonical" href="https://toyooka.me/hobbies/">
     <link rel="stylesheet" href="/styles.css">
   </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="/">Tokayu</a>
-      <nav class="nav" aria-label="主要ナビゲーション">
-        <a href="/">ホーム</a>
-        <a href="/works/">実績一覧</a>
-        <a href="/value/">提供価値</a>
+  <body class="hobby-site">
+    <header class="site-header hobby-site-header">
+      <a class="brand hobby-brand" href="/hobbies/">Tokayu 秘密基地</a>
+      <nav class="nav hobby-nav" aria-label="秘密基地ナビゲーション">
+        <a href="/">ポートフォリオへ</a>
         <a href="/hobbies/" aria-current="page">趣味</a>
+        <a href="/hobbies/movies/">映画鑑賞記録</a>
       </nav>
     </header>
 
     <main>
       <section class="page-hero hobby-hero">
-        <p class="eyebrow">趣味</p>
-        <h1>作ること、味わうこと、<br>出かけること。</h1>
+        <nav class="breadcrumb" aria-label="パンくずリスト">
+          <a href="/">ホーム</a>
+          <span aria-current="page">趣味</span>
+        </nav>
+        <h1>趣味</h1>
+        <h2>作ること、味わうこと、<br>出かけること。</h2>
         <p>
           仕事や技術の話だけでなく、手を動かすこと、考えて遊ぶこと、
-          場所を変えて気分を整えることも好きです。話題の入口として、関心のあるものをまとめています。
+          場所を変えて気分を整えることも好きです。
+          生活の中で続けていることや、気になって試していることをまとめています。
         </p>
       </section>
 
@@ -42,7 +46,7 @@
           <h2>これから挑戦したいこと</h2>
           <p>
             まだ深めている途中のもの、これから試してみたいものです。
-            趣味として育てる前の入口として並べています。
+            すぐに趣味と言い切らず、まず試してみたいこととして分けています。
           </p>
         </div>
 
@@ -51,12 +55,11 @@
     </main>
 
     <footer class="site-footer">
-      <span>© 2026 Tokayu</span>
+      <span>Tokayu 秘密基地</span>
       <nav class="footer-nav" aria-label="フッターナビゲーション">
-        <a href="/">ホーム</a>
-        <a href="/works/">実績一覧</a>
-        <a href="/value/">提供価値</a>
+        <a href="/">ポートフォリオへ</a>
         <a href="/hobbies/" aria-current="page">趣味</a>
+        <a href="/hobbies/movies/">映画鑑賞記録</a>
       </nav>
     </footer>
     <script src="/data.js"></script>

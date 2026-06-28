@@ -634,6 +634,7 @@ window.PORTFOLIO_HOBBIES = [
     title: "映画鑑賞",
     summary: "物語や映像表現を楽しみながら、感想を言葉にしてみたいです。",
     image: "/assets/hobby-placeholder.png",
+    link: "/hobbies/movies/",
     group: "challenge",
     featured: false
   },
@@ -647,6 +648,13 @@ window.PORTFOLIO_HOBBIES = [
   {
     title: "色塗り",
     summary: "色の組み合わせや塗り方を試しながら、手を動かす表現を増やしたいです。",
+    image: "/assets/hobby-placeholder.png",
+    group: "challenge",
+    featured: false
+  },
+  {
+    title: "芸術鑑賞",
+    summary: "美術館やギャラリーで作品に触れ、感じたことを言葉にしてみたいです。",
     image: "/assets/hobby-placeholder.png",
     group: "challenge",
     featured: false
